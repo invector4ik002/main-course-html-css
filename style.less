@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    @container-width: 1280px; //initial data: height: 1280px;
+ .container {
+    width: @container-width;
+    margin: 0 auto;
+    .main-header {
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+        background-color: #445162;
+    }
+    .main-header:after {
+        content: "";
+        display: block;
+        width: 100%;
+        clear: both;
+     }
+
+    .main-header-wrapper {
+        float: left;
+        .main-header-title {
+            width: 374px;
+            height: 45px;
+            display: block;
+            margin: -12px 0 50px -4px;
+            font-family: 'ArialMT', sans-serif;
+            font-size: 60px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #ffffff;
+        }
+        .main-header-list {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        .main-header-list li {
+            height: 33px;
+            font-family: 'ArialMT', sans-serif;
+            font-size: 20px;
+            line-height: 36px;
+            font-weight: 400;
+            color: #ffffff;
+            position: relative;
+            padding: 0 0 0 35px;
+        }
+        .main-header-list li:before {   
+            content: "";
+            display: block;
+            width: 25px;
+            height: 19px;
+            position: absolute;
+            top: 9px;
+            left: 0px;
+            background-image: url(./img/check_icon_346.png);
+        }
+    }
+    .main-header-photo {
+        float: right;
+        background-color: #ffffff;
+    }
+    // 2
+    .content {
+       
+    }
+    .about-product {
+        width: 100%;
+        padding: 50px;
+        margin: 0 0 0 0;
+        float: left;
+        box-sizing: border-box;
+    }
+    .about-product-wrapper {
+        float: left;
+        .about-product-title {
+            width: 254px;
+            height: 34px;
+            display: block;
+            margin: 0px 0 0px 0px;
+            font-family: 'ArialMT', sans-serif;
+            font-size: 30px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #445161;
+        }
+        .about-product-text-one { 
+            width: 689px;
+            height: 66px;
+            margin: 30px 0 0 0;
+            font-family: 'ArialMT', sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #333333;
+            // outline: 1px solid black;
+        }
+        .about-product-text-two {
+            width: 653px;
+            height: 66px;
+            margin: 20px 0 0 0;
+            font-family: 'ArialMT', sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;            
+            color: #333333;
+            // outline: 1px solid black;
+        }
+        
+    }
+    .about-product-video {
+        margin: 0 0 0 0;
+        float: right;
+        background-color: #445161;
+    }
+    // 3
+    .pluses-product {
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        background-color: #f5f5f5;
+        // outline: 1px solid blue;
+    }
+    .pluses-product-title {
+        width: 354px;
+        height: 35px;
+        display: inline-block;
+        margin: 0 0 29px 0;
+        font-family: 'ArialMT', sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 400;
+        color: #445161;
+    }
+    .pluses-product-list {
+        margin: 0 0 0 -19px;
+        padding: 0;
+        float: left;
+        text-align: left;
+        list-style-type: none;
+    }
+    .pluses-product-list li {
+        width: 527px;
+        height: 68px;
+        float: left;
+        margin: 0 0 35px 64px;
+        font-family: 'ArialMT', sans-serif;
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: 400;
+        position: relative;
+        color: #333333;
+    }
+    .pluses-product-list li:before {   
+        content: "";
+        display: block;
+        width: 33px;
+        height: 33px;
+        position: absolute;
+        top: 5px;
+        left: -41px;       
+        background-color: #445161;
+        background-size: 20px;
+        background-image: url(./img/layer_2_39.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    // 4
+    // .scrinshots {
+    //     width: 100%;
+    //     padding: 50px;
+    //     margin: 0 0 0 0;
+    //     box-sizing: border-box;
+    //     // outline: 1px solid blue;
+    // }
+     
+    // .scrinshots-subject { 
+        
+    // }
+    // .scrinshots-figure {   
+       
+    // }
+    // .scrinshots-img {
+        
+    // }
+    // .scrinshots-content {
+        
+    // }
+    // .scrinshots-title {
+        
+    // }
+    // .scrinshots-text {
+        
+    // }
+}
+}
+
+
