@@ -1,0 +1,200 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    /* position: fixed; */
+}
+.container {
+    height: 3186px;
+    width: 1280px;
+    margin: 0 auto;
+    /* outline: 3px solid red; */
+    background-image: url(./img/simple_psd_template.jpg);
+}
+/* ------------------------------- 1 ------------------------------- */
+header {
+    height: 321px;
+    outline: 5px solid blue;
+}
+header:hover > .specification-header {
+    display: block;
+    position: relative;
+    
+}
+.specification-footer,
+.specification-article-two,
+.specification-aside,
+.specification-article-one,
+.specification-article,
+.specification-header {
+    width: 600px;
+    height: 535px;
+    margin-left: 350px;
+    background-color: rgb(253, 248, 227);
+    outline: 2px solid #212121;
+    z-index: 2;
+    display: none;
+}
+ul {
+    display: block;
+    font-size: 25px;
+    margin: 0px;
+    margin-left: -30px;
+}
+ul > li {
+    list-style-type: none;
+    display:block;
+}
+ul li:nth-child(2) {
+    margin-left: 20px;
+}
+ul li:nth-child(7) {
+    margin-left: 20px;
+}
+ul li:nth-child(3) {
+    margin-left: 40px;
+}
+ul li:nth-child(6) {
+    margin-left: 40px;
+}
+ul li:nth-child(4) {
+    margin-left: 40px;
+}
+ul li:nth-child(5) {
+    margin-left: 60px;
+}
+/* ------------------------------- 2 ------------------------------- */
+main {
+    height: 2865px;
+    outline: 5px solid rgb(0, 201, 0);
+}
+article {
+    height: 340px;
+    outline: 5px solid blue;
+}
+article:hover > .specification-article {
+    display: block;
+    position: relative;
+}
+/* ------------------------------- 3 ------------------------------- */
+
+article + article {    
+    height: 423px;
+}
+article + article:hover > .specification-article-one {
+    display: block;
+    position: relative
+}
+.specification-article-one ul > li:nth-child(3) {
+    margin-left: 20px;
+}
+.specification-article-one ul > li:nth-child(4) {
+    margin-left: 40px;
+}
+.specification-article-one ul > li:nth-child(5) {
+    margin-left: 20px;
+}
+.specification-article-one ul > li:nth-child(6) {
+    display: block;
+    margin-left: 0px;
+}
+/* ------------------------------- 4 ------------------------------- */
+aside {
+    height: 482px;
+    outline: 5px solid blue;
+}
+aside:hover > .specification-aside {
+    display: block;
+    position: relative;
+}
+.specification-aside ul > li:nth-child(4) {
+    margin-left: 60px;
+}
+.specification-aside ul > li:nth-child(6) {
+    margin-left: 60px;
+}
+.specification-aside ul > li:nth-child(7) {
+    margin-left: 40px;
+}
+/* ------------------------------- 5 ------------------------------- */
+aside + aside {
+    height: 430px;
+    outline: 5px solid blue;
+}
+aside + aside .specification-aside ul > li:nth-child(6) {
+    margin-left: 40px;
+}
+aside + aside .specification-aside ul > li:nth-child(7) {
+    margin-left: 0px;
+}
+/* ------------------------------- 6 ------------------------------- */
+aside + article {
+    height: 651px;
+    outline: 5px solid blue;
+}
+aside + article:hover > .specification-article-two {
+    display: block;
+    position: relative;
+}
+.specification-article-two ul > li:nth-child(5) {
+    margin-left: 60px;
+}
+.specification-article-two ul > li:nth-child(6) {
+    margin-left: 80px;
+}
+.specification-article-two ul > li:nth-child(7) {
+    margin-left: 80px;
+}
+.specification-article-two ul > li:nth-child(8) {
+    margin-left: 80px;
+}
+.specification-article-two ul > li:nth-child(9) {
+    margin-left: 80px;
+}
+.specification-article-two ul > li:nth-child(10) {
+    margin-left: 60px;
+}
+.specification-article-two ul > li:nth-child(11) {
+    margin-left: 60px;
+}
+.specification-article-two ul > li:nth-child(12) {
+    margin-left: 40px;
+}
+/* ------------------------------- 7 ------------------------------- */
+footer {
+    height: 537px;
+    outline: 5px solid blue;
+}
+footer:hover > .specification-footer {
+    display: block;
+    position: relative;
+}
+.specification-footer ul > li:nth-child(5) {
+    margin-left: 40px;
+}
+.specification-footer ul > li:nth-child(7) {
+    margin-left: 40px;
+}
+.specification-footer ul > li:nth-child(8) {
+    margin-left: 20px;
+}
+.specification-footer ul > li:nth-child(9) {
+    margin-left: 40px;
+}
+.specification-footer ul > li:nth-child(10) {
+    margin-left: 20px;
+}
+.specification-footer ul > li:nth-child(11) {
+    margin-left: 20px;
+}
+.specification-footer ul > li:nth-child(12) {
+    margin-left: 40px;
+}
+.specification-footer ul > li:nth-child(13) {
+    margin-left: 20px;
+}
+.specification-footer ul > li:nth-child(14) {
+    margin-left: 20px;
+}
+.specification-footer ul > li:nth-child(17) {
+    margin-left: 40px;
+}
