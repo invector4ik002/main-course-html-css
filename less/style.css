@@ -293,6 +293,14 @@ body .container .buy .duy-button {
   height: 40px;
   border-radius: 5px;
   background-image: url(../img/bg_button_252.png);
+  text-transform: uppercase;
+}
+body .container .buy .duy-button:hover {
+  background-image: none;
+  background-color: #445162;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #ffffff;
 }
 body .container .buy .buy-heading {
   width: 139px;
@@ -344,12 +352,13 @@ body .container .buy .buy-standart-wrapper .buy-standart .buy-standart-list {
   width: 261px;
   float: left;
   height: 88px;
-  margin: 15px 0 0 0;
+  margin: 15px 0 0 -16px;
 }
 body .container .buy .buy-standart-wrapper .buy-standart .buy-standart-list > li {
   float: left;
   width: 260px;
   height: 23px;
+  list-style-position: inside;
   font-family: 'ArialMT', sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -421,7 +430,7 @@ body .container .buy .buy-lux {
   border-radius: 5px;
   background-color: #445162;
 }
-body .container .buy .buy-lux .buy-lux-heading {
+body .container .buy .buy-lux-heading {
   width: 38px;
   height: 23px;
   display: block;
@@ -449,7 +458,7 @@ body .container .buy .buy-lux .buy-lux-list {
   width: 261px;
   float: left;
   height: 274px;
-  margin: 16px 0 0 0;
+  margin: 16px 0 0 -16px;
 }
 body .container .buy .buy-lux .buy-lux-list > li {
   float: left;
@@ -460,7 +469,235 @@ body .container .buy .buy-lux .buy-lux-list > li {
   line-height: 24px;
   font-weight: 400;
   color: #ffffff;
+  list-style-position: inside;
 }
 body .container .buy .buy-lux .duy-button {
   margin: 20px 20px 0 20px;
+}
+body .container .contacts {
+  background-color: #445162;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 0 auto;
+  position: relative;
+  padding: 50px 245px 0 249px;
+  width: 100%;
+  box-sizing: border-box;
+}
+body .container .contacts-heading {
+  align-self: center;
+  color: #ffffff;
+  display: block;
+  font-size: 30px;
+  font-family: 'ArialMT', sans-serif;
+  font-weight: 400;
+  min-height: 54px;
+  line-height: 24px;
+  margin: 0 0 0 0;
+  width: 117px;
+}
+body .container .contacts-section {
+  float: left;
+}
+body .container .contacts-section .contacts-form {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 500px;
+}
+body .container .contacts-section .contacts-form input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  color: #445162;
+  font-size: 16px;
+  font-family: 'ArialMT', sans-serif;
+  font-weight: 400;
+  height: 40px;
+  margin: 0 0 21px 0;
+  padding: 0 0 0 10px;
+  width: 490px;
+}
+body .container .contacts-section .contacts-form input[type="text"]:hover {
+  background-color: #557191;
+  color: #ffffff;
+}
+body .container .contacts-section .contacts-form input[type="email"] {
+  border: none;
+  border-radius: 5px;
+  color: #445162;
+  font-size: 16px;
+  font-family: 'ArialMT', sans-serif;
+  font-weight: 400;
+  height: 40px;
+  line-height: 24px;
+  margin: 0 0 22px 0;
+  padding: 0 0 0 10px;
+  width: 490px;
+}
+body .container .contacts-section .contacts-form input[type="email"]:hover {
+  background-color: #557191;
+  color: #ffffff;
+}
+body .container .contacts-section .contacts-form textarea[name=""] {
+  border: none;
+  border-radius: 5px;
+  color: #445162;
+  font-family: 'ArialMT', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 170px;
+  line-height: 24px;
+  margin: 0 0 21px 0;
+  resize: none;
+  padding: 13px 0 0px 10px;
+  width: 490px;
+}
+body .container .contacts-section .contacts-form textarea[name=""]:hover {
+  background-color: #557191;
+  color: #ffffff;
+}
+body .container .contacts-section .contacts-form input[type="submit"] {
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  color: #445162;
+  font-family: 'ArialMT', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  line-height: 24px;
+  margin: 0 0 49px 0;
+  padding: 2px 0 0 0;
+  text-transform: uppercase;
+  width: 140px;
+  background-color: #ffffff;
+}
+body .container .contacts-section .contacts-form input[type="submit"]:hover {
+  background-color: #557191;
+  color: #ffffff;
+}
+body .container .contacts-section .contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 242px;
+  float: right;
+  justify-content: space-between;
+  margin: 0 0px 0 0;
+  width: 241px;
+}
+body .container .contacts-section .contacts-wrapper .contacts-list {
+  margin: 8px 0 0 0;
+  list-style-type: none;
+  padding: 0 0 0 0;
+}
+body .container .contacts-section .contacts-wrapper .contacts-list li {
+  width: 279px;
+  height: 14px;
+  line-height: 14px;
+  margin: 0 0 29px 0;
+}
+body .container .contacts-section .contacts-wrapper .contacts-list a > li:hover {
+  color: #c2deff;
+}
+body .container .contacts-section .contacts-wrapper .contacts-list > a {
+  text-decoration: none;
+  font-family: 'ArialMT', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+body .container .contacts-section .contacts-wrapper .contacts-list :nth-child(1) :before {
+  content: '';
+  display: block;
+  float: left;
+  margin: -8px 5px 0 0;
+  padding: 0 0 0 0;
+  width: 24px;
+  height: 26px;
+  background-image: url(../img/skype_icon_319.png);
+}
+body .container .contacts-section .contacts-wrapper .contacts-list :nth-child(2) :before {
+  content: '';
+  display: block;
+  float: left;
+  margin: -8px 4px 0 0;
+  width: 26px;
+  height: 26px;
+  background-image: url(../img/icq_icon_324.png);
+}
+body .container .contacts-section .contacts-wrapper .contacts-list :nth-child(3) :before {
+  content: '';
+  display: block;
+  float: left;
+  margin: -4px 4px 0 0;
+  width: 22px;
+  height: 22px;
+  background-image: url(../img/email_icon_332.png);
+}
+body .container .contacts-section .contacts-wrapper .contacts-list :nth-child(4) :before {
+  content: '';
+  display: block;
+  float: left;
+  margin: -6px 3px 0 0;
+  width: 24px;
+  height: 23px;
+  background-image: url(../img/phone_icon_337.png);
+}
+body .container .contacts-section .contacts-wrapper .contacts-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 42px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 240px;
+}
+body .container .contacts-section .contacts-wrapper .contacts-img .contacts-icons {
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: #445162;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  height: 40px;
+  margin: 0 0 0 0;
+  width: 40px;
+}
+body .container .contacts-section .contacts-wrapper .contacts-img .contacts-icons:hover {
+  background-color: #557191;
+}
+body .container .contacts-section .contacts-wrapper .contacts-img .contacts-twitter {
+  background-image: url(../img/twitter_19-2.png);
+}
+body .container .contacts-section .contacts-wrapper .contacts-img .contacts-facebook {
+  background-image: url(../img/fb_17-10.png);
+}
+body .container .contacts-section .contacts-wrapper .contacts-img .contacts-in {
+  background-image: url(../img/in-39-15.png);
+}
+body .container .contacts-section .contacts-wrapper .contacts-img .contacts-google {
+  background-image: url(../img/g__21-20.png);
+}
+body .container .contacts-section .contacts-wrapper .contacts-img .contacts-youtube {
+  background-image: url(../img/youtube_40-17.png);
+}
+body .container .contacts .contacts-copy {
+  background-color: #f5f5f5;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 0 0 0;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  top: 507px;
+  width: 100%;
+}
+body .container .contacts .contacts-copy p {
+  color: #445162;
+  font-size: 12px;
+  margin: 0 0 0 0;
 }
